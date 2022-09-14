@@ -19,4 +19,4 @@ def index():
 
 
 if __name__ == '__main__':
-    socketio.run(app, host='https://flask-chat.onrender.com') # Change address to ipv4
+    socketio.run(app, host='flask-chat.onrender') # Change address to ipv4
