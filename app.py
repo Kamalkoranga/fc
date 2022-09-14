@@ -19,4 +19,4 @@ def index():
 
 
 if __name__ == '__main__':
-    socketio.run(app, host="localhost") # Change address to ipv4
+    socketio.run(app) # Change address to ipv4
